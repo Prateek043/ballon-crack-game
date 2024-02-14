@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    width: 300px; 
+    margin: auto; 
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7; 
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    color: #333; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  }
+
+  /* App.css */
+
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  .balloon {
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+  }
+  
+  .balloon.popped {
+    background-color: red;
+    animation: crack 0.5s ease-in-out;
+  }
+  
+  @keyframes crack {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
